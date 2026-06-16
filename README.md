@@ -22,26 +22,14 @@ path-energy-certificates/
 ├── LICENSE
 ├── CITATION.cff
 ├── run_all.sh
-├── paper1_core/
-│   ├── README.md
-│   ├── path_splicing/
-│   │   └── verify_all.sage
-│   ├── scalar_envelope/
-│   │   └── scalar_envelope_certificates.sage
-│   ├── local_moment/
-│   │   └── local_moment_check.sage
-│   └── output_logs/
-│       ├── verify_all_output.txt
-│       ├── scalar_envelope_output.txt
-│       └── local_moment_output.txt
-├── paper2_applications/
-│   ├── README.md
-│   ├── line_graph/
-│   │   └── line_graph_scalar_check.sage
-│   └── output_logs/
-│       └── line_graph_scalar_check_output.txt
-└── docs/
-    └── certificate_index.md
+├── core/
+│   ├── verify_path_splicing.sage
+│   ├── verify_scalar_envelope.sage
+│   ├── verify_local_moment.sage
+│   └── expected_output.txt
+└── applications/
+    ├── verify_line_graph.sage
+    └── expected_output.txt
 ```
 
 The directory `paper1_core/` contains the scripts used in the proof of the
