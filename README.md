@@ -1,4 +1,4 @@
-# SageMath certificates for path-minimality of graph (p)-energies
+# SageMath certificates for path-minimality of graph $p$-energies
 
 This repository contains the SageMath verification scripts and certificate data
 used in the two companion papers
@@ -23,18 +23,20 @@ graph-p-energy-certificates/
 ├── run_all.sh
 ├── core/
 │   ├── verify_path_splicing.sage
+│   ├── verify_path_splicing_output.txt
 │   ├── verify_scalar_envelope.sage
+│   ├── verify_scalar_envelope_output.txt
 │   ├── verify_local_moment.sage
-│   └── expected_output.txt
+│   └── verify_local_moment_output.txt
 └── applications/
     ├── verify_line_graph.sage
-    └── expected_output.txt
+    └── verify_line_graph_output.txt
 ```
 
 The directory `paper1_core/` contains the scripts used in the proof of the
-main path-minimality theorem for adjacency (p)-energy.  The directory
+main path-minimality theorem for adjacency $p$-energy.  The directory
 `paper2_applications/` contains the scripts used in the companion paper on
-positive (p)-energies, Laplacian-type spectra, and line graphs.
+positive $p$-energies, Laplacian-type spectra, and line graphs.
 
 ## Requirements
 
